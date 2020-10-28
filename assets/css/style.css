@@ -31,7 +31,7 @@
     width: 2rem;
     height: 2rem;
     position: fixed;
-    z-index: 100;
+    z-index: 101;
     right: 3rem;
     top: 2rem;
     display: flex;
@@ -232,6 +232,7 @@ header{
 
 .sidebar{
 
+    z-index: 100;
     width: 20rem;
     height: 100vh;
     background-color: #fff;
@@ -239,6 +240,7 @@ header{
     top: 0;
     right: -30rem;
     transition: all 1s;
+    
 
 }
 
